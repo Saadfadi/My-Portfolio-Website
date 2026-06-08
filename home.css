@@ -56,7 +56,7 @@
   color: #bdbdeb;
   line-height: 1.7;
 }
-.social-btns{
+.social-btns {
   transition: all 0.3s ease;
   margin: 0 30px;
   display: flex;
@@ -65,13 +65,13 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.social-btns a{
+.social-btns a {
   color: #a78bfa;
 }
-.social-btns a:hover{
+.social-btns a:hover {
   transform: translateY(-3px);
 }
-.social-btns svg{
+.social-btns svg {
   width: 30px;
   height: 30px;
 }
@@ -144,9 +144,11 @@
 /* Code area */
 .code-body {
   padding: 20px 24px;
-  font-family: "Fira Code",monospace;
+  font-family: "Fira Code", monospace;
   font-variant-ligatures: common-ligatures;
-  font-feature-settings: "liga" 1, "calt" 1;
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
   font-weight: 400;
   font-size: 13x;
   line-height: 1.8;
@@ -182,6 +184,10 @@
     text-align: center;
     gap: 20px;
   }
+  .code-card {
+    width: 90%;
+    align-items: center;
+  }
   .hero-text {
     width: 100%;
     align-items: center;
@@ -192,13 +198,5 @@
   }
   .hero-text h2 {
     font-size: 18px;
-  }
-  .hero-image {
-    width: 100%;
-    order: -1;
-  }
-  .hero-image img {
-    width: 220px;
-    height: 220px;
   }
 }
