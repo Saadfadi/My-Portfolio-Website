@@ -1,5 +1,7 @@
+/* NOT USED FOR SOME REASONS */
+
 window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("loader").classList.add('hidden');
-  },1500);
+  },1000);
 });

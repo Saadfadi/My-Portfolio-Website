@@ -16,6 +16,10 @@ footer {
   display: flex;
   gap: 24px;
 }
+a img{
+  height: 60px;
+  width: auto;
+}
 
 .footer-links a {
   text-decoration: none;
